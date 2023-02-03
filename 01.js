@@ -14,9 +14,10 @@ function soloNumeros(array) {
   var newArray = [];
     for (i=0; i<array.length; i++ ){
     if (array[i] > 0){
-        newArray.push(array[i]);
+       newArray.push(array[i]);
     } 
-  }return newArray
+}return newArray
+
 }
 
 // No modifiques nada debajo de esta linea //
